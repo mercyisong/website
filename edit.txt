@@ -1,0 +1,53 @@
+const config =usePaystackPayment.setup({
+        email: allInfo.email,
+        amount: allInfo.amount,
+        publicKey: 'pk_test_818ce9cf39ec6a309cdbce3bd435dc8a6f751cc0',
+        currency: 'NGN',
+        callback: function(response) {
+          //this happens after the payment is completed successfully
+          var reference = response.reference;
+          alert('Payment complete! Reference: ' + reference);
+          // Make an AJAX call to your server with the reference to verify the transaction
+        },
+        onClose: function() {
+          alert('Transaction was not completed, window closed.');
+        },
+      });
+      config.openIframe();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import { PaystackButton } from 'react-paystack';
+
+      // you can call this function anything
+  const handlePaystackSuccessAction = (reference) => {
+    // Implementation for whatever you want to do with reference and after success call.
+    console.log(reference);
+  };
+
+  // you can call this function anything
+  const handlePaystackCloseAction = () => {
+    // implementation for  whatever you want to do when the Paystack dialog closed.
+    console.log('closed')
+  }
+
+
+  // const componentProps = {
+  //   ...config,
+  //   text: 'Paystack Button Implementation',
+  //   onSuccess: (reference) => handlePaystackSuccessAction(reference),
+  //   onClose: handlePaystackCloseAction,
+  // };
+
+  {/* <PaystackButton {...componentProps} /> */}
