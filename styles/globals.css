@@ -133,11 +133,11 @@ a:active{
 }
   
   ::-webkit-scrollbar-track {
-    background: #6e5417; 
+    background: rgb(168, 172, 177); 
   }
-   
+  
   ::-webkit-scrollbar-thumb {
-    background: #3a2a00; 
+    background: rgb(55, 73, 98); 
   }
   
   ::-webkit-scrollbar-thumb:hover {
