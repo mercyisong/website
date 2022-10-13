@@ -6,7 +6,7 @@ import { IoCloseOutline } from 'react-icons/io5'
 const Navbar = () => {
     const [sideNav, setSideNav] = useState<boolean>(false)
     return (
-    <div className="bg-white fixed z-40 top-0 left-0 w-full lg:py-8 py-5 px-2">
+    <div className="bg-gray-800 fixed z-40 top-0 left-0 w-full lg:py-8 py-5 px-2">
         <div className="lg:max-w-5xl lg:mx-auto px-6 lg:px-0 flex justify-between items-center">
             {/* <img src="/assets/ApeInLogo.png" className="w-8 h-8" alt="ApeIn logo"/> */}
             <h2 className="uppercase  text-xl  ">MIOF</h2>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = ({herosection, heroSectionVideo}:any) => {
     return (
-    <div id='home' className='mt-20 flex flex-col  lg:h-fit'>
+    <div id='home' className='mt-20 flex flex-col lg:h-fit'>
      <div className='h-full py-14 sm:pt-28 flex flex-col space-y-12 items-center text-center'>
         <div className='text-4xl sm:text-5xl'>
           MERCY ISONG OUTREACH FOUNDATION

@@ -13,8 +13,6 @@
   font-family: "NeurialGrotesk", Arial, sans-serif;
 }
 
-
-
 .right-chain {
   right: -14rem;
 }
@@ -41,7 +39,6 @@ a:active{
   transform-origin: 0;
   -webkit-transform: skewY(-8deg);
   transform: skewY(-8deg);
-  /* margin-left: -6px; */
 }
 @media screen and (max-width: 992px) {
   .stripes {
@@ -52,34 +49,34 @@ a:active{
 .stripes span:nth-child(1) {
   grid-column: span 3;
   grid-row: 4;
-  background-color: #40310E;
+  background-color: rgb(31 41 55);
 }
 .stripes span:nth-child(2) {
   height: 15px;
   grid-column: span 2;
   grid-row: 6;
-  background-color: #FCA800;
+  background-color: rgb(209 213 219);
 }
 .stripes span:nth-child(3) {
   grid-column: span 3;
   grid-row: 7;
-  background-color: #40310E;
+  background-color: rgb(31 41 55);
 }
 .stripes span:nth-child(4) {
   height: 15px;
   grid-column: 11/span 2;
   grid-row: 5;
-  background-color: #FCA800;
+  background-color: rgb(209 213 219);
 }
 .stripes span:nth-child(5) {
   grid-row: 6;
-  background-color: #40310E;
+  background-color: rgb(31 41 55);
   grid-column: 10/span 3;
 }
 .stripes span:nth-child(6) {
   grid-row: 8;
   height: 15px;
-  background-color: #FCA800;
+  background-color: rgb(209 213 219);
   grid-column: 10/span 2;
 }
 .stripes span:nth-child(7) {
@@ -135,24 +132,14 @@ a:active{
     width: 7px;
 }
   
-  /* Track */
   ::-webkit-scrollbar-track {
     background: #6e5417; 
   }
    
-  /* Handle */
   ::-webkit-scrollbar-thumb {
     background: #3a2a00; 
   }
   
-  /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
-
-
-
-
-
-
-  
