@@ -21,8 +21,7 @@ const Hero = ({herosection, heroSectionVideo}:any) => {
             <span></span>
             <span></span>
             <span>
-              <iframe className='w-full h-full hero-vid' 
-              src="https://www.youtube.com/embed/ejU9zcVXmp4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+              <iframe className='w-full h-full hero-vid' src="https://www.youtube.com/embed/h9RfloX_vRE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
             </span>
           </div>
         </div>
