@@ -2,17 +2,17 @@ import React from 'react'
 
 const Hero = ({herosection, heroSectionVideo}:any) => {
     return (
-    <div id='home' className='mt-20 flex flex-col lg:h-fit'>
-     <div className='h-full py-14 sm:pt-28 flex flex-col space-y-12 items-center text-center'>
-        <div className='text-4xl sm:text-5xl'>
+    <div id='home' className=' flex flex-col lg:h-fit text-white'>
+     <div className='h-full hero-v space-y-8 px-4'>
+        <div className='text-4xl sm:text-5xl pt-40 '>
           MERCY ISONG OUTREACH FOUNDATION
         </div>
-        <div className='flex flex-col space-y-4 flex-start lg:h-5/6 h-full'>
+        <div className='w-full flex flex-col sm:items-center'>
             <h1 className='text-2xl sm:text-4xl'>Give proper recognition to those widows who are really in need.</h1>
             <p className='tracking-wider text-xl uppercase font-medium'>1st Timothy 5:3</p>
         </div>
       </div>
-      <div className='md:h-64 mt-0 lg:mt-40 h-80 relative'>
+      <div className='hero-rm md:h-64 bg-transparent sm:bg-white pt-36 pb-36  h-80 relative'>
           <div className='h-96 grid stripes w-full'>
             <span></span>
             <span></span>

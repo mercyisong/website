@@ -29,7 +29,9 @@ a:active{
 .stripes {
   position: absolute;
   width: 100vw;
-  left: -11%;
+  /* left: -11%; */
+  background-color: transparent;
+  padding-top: 0 !important;
   right: 0;
   display: grid;
   grid-template-columns: repeat(12,1fr);
@@ -42,7 +44,7 @@ a:active{
 }
 @media screen and (max-width: 992px) {
   .stripes {
-    left: -7%;
+    left: 24%;
   }
 }
 
@@ -143,3 +145,46 @@ a:active{
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
+
+
+.hero{
+  width: 100vw;
+  margin-left: -120px;
+}
+.hero-v{
+  background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),  url(./hero.jpg);
+  position: absolute;
+  top: -50px;
+  height: 140vh;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-rm{
+  margin-top: 600px;
+}
+
+.rm{
+  position: relative;
+  top: 0px;
+}
+@media screen and (max-width: 768px) {
+  .hero-v{
+   min-height: 85vh;
+   max-height: 100vh;
+  }
+  .hero-rm{
+    margin-top: 65vh;
+  }
+  .rm{
+    padding-top: 50px;
+  }
+}
+

@@ -13,12 +13,17 @@ const Home: NextPage = (props:any) => {
       <Head>
         <title>Mercy Isong Outreach Foundation</title>
       </Head>
-      <main className='text-gray-100 bg-gray-900 text-xl px-6 sm:px-28 flex flex-col space-y-16'>
+      <main className='text-gray-800 text-gray-100  text-xl px-6 sm:px-28 flex flex-col space-y-16'>
           <Navbar />
+          <div className='hero'>
           <Hero />
+          </div>
+          <div className='rm text-gray-800'>
           <About />
           <Mercy />
           {/* <Partner /> */}
+          </div>
+         
       </main>
       <footer>
         <Footer />
