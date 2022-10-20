@@ -13,20 +13,20 @@ const Home: NextPage = (props:any) => {
       <Head>
         <title>Mercy Isong Outreach Foundation</title>
       </Head>
-      <main className='text-gray-800 text-gray-100  text-xl px-6 sm:px-28 flex flex-col space-y-16'>
-          <Navbar />
-          <div className='hero'>
-          <Hero />
-          </div>
-          <div className='rm text-gray-800'>
-          <About />
-          <Mercy />
-          {/* <Partner /> */}
-          </div>
-         
+      <main>
+        <div className='px-2 sm:px-0 flex flex-col items-center space-y-4'>
+          <h4 className='text-white text-5xl'>
+            COMING SOON
+          </h4>
+          <p className='text-white text-xl'>
+              We will be celebrating the launch of our new site very soon!
+          </p>
+        </div>
       </main>
-      <footer>
-        <Footer />
+      <footer className='px-2 sm:px-0 text-white w-full mb-4 absolute bottom-0
+                        text-base sm:text-xl
+                        flex justify-center font-bold tracking-wider'   >
+          MERCY ISONG OUTREACH FOUNDATION
       </footer>
     </>
     
@@ -34,3 +34,49 @@ const Home: NextPage = (props:any) => {
 }
 
 export default Home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <main className='text-gray-800 text-gray-100  text-xl px-6 sm:px-28 flex flex-col space-y-16'>
+<Navbar />
+<div className='hero'>
+<Hero />
+</div>
+<div className='rm text-gray-800'>
+<About />
+<Mercy />
+</div>
+
+</main>
+<footer>
+<Footer />
+</footer> */}
